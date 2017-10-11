@@ -11,17 +11,22 @@ Evaluation code for "Image Matching Benchmark"
 
 ## Usage
 
-Requirement:
+Requirements:
 
-    1. Matlab (Evaluate results and plot figures)
-    2. Ghostscript (save figures as pdf format)
-
+	1. Matlab (Evaluate results and plot figures)
+	2. Ghostscript (save figures as pdf format)
 
 Dataset:
 	
-    You should download the dataset from the project page (https://jwbian.net/benchmark) firstly and put them in the folder "Dataset".
-
-
+	1. Download the all subsets from the project page (https://jwbian.net/benchmark) and put them in the folder "Dataset".
+	2. "ReadMe.txt" in "Dataset" folder gives description of data format, including the groundtruth and your output results
+    
+    
+Evaluation:
+	
+	1. Run "PlotResults.m" to evaluate the results in folder "/Results" and save figures in "/Curves".
+	2. Run "PlotResults2.m" to evaluate the results in folder "/Results2" and save figures in "/Curves2".
+    
 
 ## If you like this work, please cite our paper
 	@inproceedings{bian2018benchmark,
