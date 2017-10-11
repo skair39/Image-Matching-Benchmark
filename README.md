@@ -15,16 +15,16 @@ Requirement:
 
 
 Dataset:
-
-    You should download the dataset from the [project page](https://jwbian.net/benchmark) firstly and put them in the folder "Dataset".
+	
+    You should download the dataset from the project page (https://jwbian.net/benchmark) firstly and put them in the folder "Dataset".
 
 
 
 ## If you like this work, please cite our paper
 	@inproceedings{bian2018benchmark,
  	    title={Image Matching Benchmark},
-      author={JiaWang Bian and Le Zhang and Yun Liu and Wen-Yan Lin and Ming-Ming Cheng and Ian D. Reid},
-      year={2018}
+	    author={JiaWang Bian and Le Zhang and Yun Liu and Wen-Yan Lin and Ming-Ming Cheng and Ian D. Reid},
+	    year={2018}
 	}
 
 
