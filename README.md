@@ -1,6 +1,8 @@
 # Image Matching Benchmark
 Evaluation code for "Image Matching Benchmark"
 
+![alt tag](https://jwbian.net/wp-content/uploads/2017/09/Pipeline.png)
+
 ## Publication:
 
 **Image Matching Benchmark**, JiaWang Bian, Le Zhang, Yun Liu, Wen-Yan Lin, Ming-Ming Cheng and Ian D. Reid.
