@@ -9,23 +9,29 @@ Evaluation code for "Image Matching Benchmark"
 [[Project Page](http://jwbian.net/benchmark)] [[pdf](https://arxiv.org/abs/1709.03917)] [[Dataset (BaiduYun)](http://pan.baidu.com/s/1c22HIFI)]
 
 
-## Usage
+## Introduction
+
+**There exist a "ReadMe.txt" for describing the data and code in each folder.**
 
 Requirements:
 
 	1. Matlab (Evaluate results and plot figures)
-	2. Ghostscript (save figures as pdf format)
-
+	2. Ghostscript (Save figures as pdf format)
+	3. OpenCV (Run feature matching algorithms)
+ 
 Dataset:
 	
 	1. Download the all subsets from the project page (https://jwbian.net/benchmark) and put them in the folder "Dataset".
-	2. "ReadMe.txt" in "Dataset" folder gives description of data format, including the groundtruth and your output results
+	2. The data format is described in "ReadMe.txt".
     
+Algorithms:
+	
+	1. The code of total 12 feature matchers are provided.
+	2. The Matlab script for running algorithms on all subsets are given.
     
 Evaluation:
 	
-	1. Run "PlotResults.m" to evaluate the results in folder "/Results" and save figures in "/Curves".
-	2. Run "PlotResults2.m" to evaluate the results in folder "/Results2" and save figures in "/Curves2".
+	You can use the code in this folder to plot figures as presented in the paper.
     
 
 ## If you like this work, please cite our paper
